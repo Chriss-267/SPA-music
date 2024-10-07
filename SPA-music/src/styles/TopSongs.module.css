@@ -1,0 +1,16 @@
+.wrap{
+        margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px){
+    .wrap{
+        display: flex;
+        overflow-x: auto; 
+    }
+}
